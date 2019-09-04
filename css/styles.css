@@ -1,0 +1,30 @@
+.navbar-inverse {
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+nav a {
+    color: white;
+}
+
+/* carousel */
+.carousel-caption {
+    padding-top: 0px;
+}
+
+.carousel-caption img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.carousel-caption button{
+    background-color: #f27830;
+    margin-bottom: 10px;
+}
+
+button a {
+    color: white;
+}
