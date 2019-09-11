@@ -4,7 +4,7 @@
     border: none;
 }
 
-nav a {
+nav a, h4{
     color: white;
 }
 
@@ -27,4 +27,172 @@ nav a {
 
 button a {
     color: white;
+}
+
+/* our story */
+
+.our-story-row {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.our-story {
+    padding-top: 1em;
+    display: block;
+}
+
+.our-story h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 4em;
+    color: #f27830;
+    margin-bottom: 0px;
+}
+
+.our-story h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    margin-top: 0px;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 200px;
+    text-size-adjust: auto;
+    z-index: -1;
+    position: absolute;
+    margin-left: 40px;
+    color: rgba(0, 0, 0, 0.1)
+}
+
+.our-story p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin: 20px 0px 5px 0px;
+}
+
+.our-story h2, h1 {
+    text-align: center;
+}
+
+/* fresno bee */
+
+.jumbotron h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 4em;
+    color: #f27830;
+}
+
+.jumbotron p {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.jumbotron {
+    margin-top: 2em;
+    margin-bottom: 0px;
+    background-image: url(/img/food_review.jpg);
+}
+
+.jumbotron .box {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+
+/* menu */
+
+.menu {
+    background-image: url(/img/black_linen.png);
+    padding-bottom: 2em;
+}
+
+.menu h1 {
+    margin-top: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+.menu .tab-content .col-md-3 {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.nav-tabs li a {
+    text-align: center;
+    color: #f27830;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.nav-tabs li {
+    width: 25%;
+}
+
+/* contact */
+
+.footer {
+    background-color: #f27830;
+    padding-bottom: 3em;
+}
+
+.footer h1 {
+    text-align: center;
+    margin-right: 150px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer p {
+    text-align: left;
+    color: white;
+    padding-right: 10em;
+    font-size: 1em;
+    font-family: 'Playfair Display', serif;
+}
+
+input[text=type], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+label {
+    color: white;
+}
+
+.footer form {
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid white;
+    background-color: #ff7833;
+}
+
+.footer address, iframe {
+    margin-left: 3em;
+}
+
+address {
+    line-height: 1px;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
 }
