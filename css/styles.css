@@ -96,6 +96,7 @@ h5 {
     margin-top: 2em;
     margin-bottom: 0px;
     background-image: url(/img/food_review.jpg);
+    background-attachment: fixed;
 }
 
 .jumbotron .box {
@@ -155,6 +156,10 @@ h5 {
     font-family: 'Playfair Display', serif;
 }
 
+.contact-font h1 {
+    font-family: 'Lobster', cursive;
+}
+
 .footer p {
     text-align: left;
     color: white;
@@ -191,6 +196,7 @@ label {
 
 address {
     line-height: 1px;
+    margin-bottom: 50px;
 }
 
 h4 {
